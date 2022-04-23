@@ -1,10 +1,12 @@
-@import url(“3-style.css”);
+html {
+    scroll-behavior: smooth;
+}
 body, a {
-    color: var(--text-color);
+    color: #161616;
 }
 .visually-hidden {
     display: none;
 }
 .card-category, .section-tagline {
-    color: var(--color-primary);
+    color: #D73953;
 }
