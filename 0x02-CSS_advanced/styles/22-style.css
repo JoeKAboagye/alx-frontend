@@ -58,16 +58,16 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
 body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+}
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
 }
 h1, h2, h3, h4, h5, h6, .section-tagline, .section-title {
     font-family: var(--font-family-title);
