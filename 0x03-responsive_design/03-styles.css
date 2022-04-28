@@ -218,7 +218,7 @@
     width: calc((100% / 2) - 2rem);
   }
 
-  @media screen and (max-width: 767px) {
+  @media all and (max-width: 767px) {
     ul.row, .row {
       flex-direction: column;
       margin: 0;
@@ -282,7 +282,7 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 767px){
+  @media all and (max-width: 767px){
     .navbar-menu {
         display: none;
     }
@@ -426,7 +426,7 @@
     flex-direction: row-reverse;
   }
 
-  @media screen and (max-width: 767px){
+  @media all and (max-width: 767px){
     .section-latest-news .row {
         flex-direction: column;
     }
